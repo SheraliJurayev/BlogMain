@@ -7,7 +7,7 @@
         {{user.username}}
         <p><a href="{% url 'logout' %}">Chiqib ketish</a></p>
     {%else%}
-        <p>Saytga kirmgansiz</p>
+        <p>Saytga kirmagansiz</p>
         <a href="{% url 'login'%}">Kirish</a>
         <a href="{% url 'signup'%}">Ro'yhatdan o'tish</a>
     {%endif%}
